@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local Claude/preview tooling — not part of the deployed site
+.claude/
+
+# Node (legacy from sibling build_plan.js; not used here, defensive)
+node_modules/
+package-lock.json
