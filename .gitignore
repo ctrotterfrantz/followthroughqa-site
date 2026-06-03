@@ -15,3 +15,10 @@ desktop.ini
 # Node (legacy from sibling build_plan.js; not used here, defensive)
 node_modules/
 package-lock.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
