@@ -4,8 +4,6 @@
    Surface-specific layout lives here; tokens stay shared.
    ============================================================ */
 
-@import url('assets/fonts/fonts.css');
-
 :root {
   /* Color */
   --color-graphite: #1F2227;
@@ -87,12 +85,14 @@ a:hover { color: var(--color-rust-deep); }
 }
 
 .nav-wordmark {
-  display: block;
-  height: 22px;
-  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
   color: var(--color-graphite);
 }
-.nav-wordmark svg { height: 100%; width: auto; display: block; }
+.nav-wordmark svg { display: block; width: auto; }
+.nav-wordmark .nav-mark { height: 26px; }
+.nav-wordmark .nav-wm { height: 20px; }
 
 .nav-links {
   display: flex;
